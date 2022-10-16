@@ -10,7 +10,6 @@ import { Pagination } from "swiper";
 const apikey = process.env.REACT_APP_apikey;
 
 export default function InitialPage (){
-    console.log(apikey)
     const [initialMovies, setInitialMovies] = useState([])
     const idsArray = ['tt8041270','tt4123432', 'tt10298810','tt9419884','tt5108870','tt12412888', 'tt1745960' ,'tt11827628','tt1877830', 'tt1630029', 'tt9114286','tt6443346', 'tt10648342','tt12593682','tt5113044'];
     const idsPromises = idsArray.map(id => {

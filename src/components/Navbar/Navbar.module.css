@@ -1,0 +1,59 @@
+.img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+.form{
+    padding-right: 0.5rem;
+    justify-content: space-between;
+}
+#btn{
+    color: white;
+}
+#btn:hover{
+    border:none!important;
+}
+
+.searchDiv{
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
+.searchDiv .form{
+    display: flex;
+    justify-content: center;
+}
+.border{
+    border:solid 1px white;
+    border-radius: 2rem;
+}
+
+.input{
+    background-color: transparent!important;
+    border:none!important;
+    color:white;
+    padding-left: 1rem;
+}
+.input:focus{
+    outline: none;
+}
+.input[value]{
+    color:white
+}
+#linkDiv{
+    display: flex;
+    gap:0.8rem;
+}
+.links{
+    text-decoration-line: none!important; 
+    justify-self: center;
+    color: #c8c8c8;
+}
+.links:hover{
+    color: white;
+}
+.active{
+    color:white!important;
+    font-weight: bold;
+    text-decoration: none!important
+}

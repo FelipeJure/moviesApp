@@ -1,0 +1,65 @@
+.peli{
+    width: 20rem;
+    height: 28rem;
+    position: relative;
+}
+
+.imagen{
+    width: 250px;
+    padding-top: 0.5rem;
+}
+.playIcon{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+    position: absolute;
+    top: 8rem;
+    left: 5rem;
+    color: white;
+}
+
+.title{
+    display: flex;
+    justify-content: start;
+    color: white;
+    text-decoration-line:none ;
+    width: 16rem;
+
+}
+.title:hover{
+    color: white;
+}
+.name{
+    text-align: start;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}
+.heart{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+.check{
+    width: 1.3rem!important;
+    height: 1.3rem!important;
+    cursor:pointer;
+}
+.icons{
+    gap: 0.5rem;
+    display: flex;
+    padding-right: 4rem;
+}
+
+.section:hover *{
+    transition-duration: 0.5s;
+    visibility: visible;
+}
+
+.section:hover .imagen{
+    opacity: .5;
+}

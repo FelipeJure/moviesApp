@@ -1,0 +1,19 @@
+.container{
+    justify-items: center;
+    padding-left: 3rem;
+}
+.h3{
+    display:flex;
+    margin-top: 2rem;
+    margin-left: 3.2rem;
+}
+
+@media (max-width:570px) {
+    .h3{
+        justify-content: center;
+        margin-left: 0;
+    }
+    .container{
+        padding-left: 4rem;
+    }
+}

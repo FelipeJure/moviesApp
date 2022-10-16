@@ -1,4 +1,4 @@
-import apikey from '../apikey'
+const apikey = process.env.REACT_APP_apikey
 
 export const ADD_FAVORITE_MOVIE = 'ADD_FAVORITE_MOVIE'
 export const GET_MOVIES = 'GET_MOVIES'

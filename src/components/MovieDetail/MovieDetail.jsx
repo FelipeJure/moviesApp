@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import apikey from '../../apikey';
 import s from './MovieDetail.module.css';
 import Loading from './Loading';
 
-function MovieDetail () {
+const apikey = process.env.REACT_APP_apikey;
 
+function MovieDetail () {
+    
     const [movie, setMovie] = useState(undefined)
 
     const {id} = useParams ()

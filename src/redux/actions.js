@@ -33,7 +33,7 @@ export function getMovies(titulo) {
             let results = 10
             let n = 2
             while (json.totalResults > results && results < 40){
-              arrayPromises.push(fetch(`http://www.omdbapi.com/?apikey=${apikey}&s=${titulo}&page=${n}`)
+              arrayPromises.push(fetch(`https://www.omdbapi.com/?apikey=${apikey}&s=${titulo}&page=${n}`)
               .then(response => response.json()).then(json => json.Search))
               results += 10;
               n ++

@@ -24,7 +24,7 @@ export function removeSawMovie(movie) {
 export function getMovies(titulo) {
     return function(dispatch) {
       return (
-      fetch(`http://www.omdbapi.com/?apikey=${apikey}&s=${titulo}`)
+      fetch(`https://www.omdbapi.com/?apikey=${apikey}&s=${titulo}`)
         .then(response => response.json())
         .then(json => {
           if (json.Response === 'True'){
